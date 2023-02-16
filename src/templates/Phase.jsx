@@ -7,7 +7,7 @@ const Phase = ({ num, text }) => {
     const [ref, inView] = useInView({ threshold: 0.5 })
 
     return (
-        <motion.div initial={{ opacity: 0, scale: 0.5 }} animate={inView ? { scale: 1, opacity: 100 } : {}} transition={{ duration: 0.5 }} className='h-auto max-w-[26rem] relative border-l-[5px] border-header p-7 py-8 m-3'>
+        <motion.div initial={{ opacity: 0, scale: 0.5 }} animate={inView ? { scale: 1, opacity: 100 } : {}} transition={{ duration: 0.5 }} className='h-auto max-w-[26rem] relative border-l-[5px] border-header p-7 py-8 m-3 min-h-[21rem]'>
             <div className='w-full h-full bg-black opacity-70 absolute top-0 left-0 z-0' ref={ref}>
             </div>
             <div className='relative z-10'>

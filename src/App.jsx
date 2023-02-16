@@ -11,7 +11,7 @@ import Footer from './components/Footer'
 const App = () => {
   return (
     <div className='h-auto w-full bg-darker'>
-      <div className='bg-transparent h-2 w-2 absoluet top-0 left-0' id="home">
+      <div className='bg-transparent h-2 w-2 absolute top-0 left-0' id="home">
 
       </div>
       <Nav />
