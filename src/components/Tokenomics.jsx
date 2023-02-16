@@ -7,7 +7,7 @@ const Tokenomics = () => {
     const [ref, inView] = useInView({triggerOnce: true, threshold: 0.9})
 
     return (
-        <section className='w-full h-auto bg-tokenbg md:px-20 px-10 py-28 flex items-center justify-between text-white relative lg:flex-row flex-col'>
+        <section className='w-full h-auto bg-tokenbg md:px-20 px-10 py-28 flex items-center justify-between text-white relative lg:flex-row flex-col'  id="tokenomics">
             <div className='w-full h-auto mx-auto relative z-10'>
                 <h1 className='font-saira md:text-5xl 2xl:text-7xl font-bold text-white text-3xl'>TOKENOMICS</h1>
                 <div className='mt-8 flex flex-col gap-y-4 font-poppins 2xl:text-lg'>

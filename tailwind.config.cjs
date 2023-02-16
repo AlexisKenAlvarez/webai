@@ -7,7 +7,8 @@ module.exports = {
   theme: {
     extend: {
       backgroundImage: {
-        'main': "url('/mainbg.webp')"
+        'main': "url('/mainbg.webp')",
+        'world': "url('/world.webp')"
       },
       fontFamily: {
         'saira': ['Saira'],
@@ -22,7 +23,8 @@ module.exports = {
       },
       boxShadow: {
         'eco': '0px -17px 51px 0px rgba(6,7,27,0.75)',
-        'glow': '0px 0px 150px 60px rgba(35,71,151,0.40)'
+        'glow': '0px 0px 150px 60px rgba(35,71,151,0.40)',
+        // 'nav': '0px 32px 40px 0px rgba(0,0,0,0.75) inset'
       }
     },
   },

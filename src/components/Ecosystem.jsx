@@ -10,8 +10,8 @@ const Ecosystem = () => {
 
 
     return (
-        <section className='w-full h-auto min-h-screen bg-darker shadow-eco text-white px-10 pb-[10rem] z-9'>
-            <div className="w-full mx-auto max-w-[1700px]">
+        <section className='w-full h-auto min-h-screen bg-darker shadow-eco text-white px-10 pb-[13rem] z-9' >
+            <div className="w-full mx-auto max-w-[1700px]" id="ecosystem" >
                 <Parallax translateY={[0, -100]}>
                     <div className='max-w-[55rem] 2xl:max-w-[65rem] w-full border-[1px] border-white rounded-xl mx-auto lg:p-12 p-8 pb-20 relative bg-darker'>
                         <h1 className='font-saira text-3xl text-header font-semibold text-center uppercase'>What are we?</h1>
@@ -23,7 +23,7 @@ const Ecosystem = () => {
                     </div>
                 </Parallax>
 
-                <h1 className='font-saia text-5xl text-center font-bold uppercase mb-[10rem]' ref={ecoRef}>Ecosystem</h1>
+                <h1 className='font-saia text-5xl text-center font-bold uppercase mb-[10rem]'   ref={ecoRef}>Ecosystem</h1>
 
                 <div className='w-fit h-auto mx-auto mt-10 flex flex-col gap-y-[12rem]'>
                     <Ecoleft title="1. Website AI Generation Tool" desc="Using AI to build websites has many advantages over traditional coding. For example, an AI-based website is capable of providing more personalized experiences for website visitors. Traditional coding requires manual effort and knowledge on coding languages, whereas using AI to create a website makes it easier to develop, customize and deploy a website in much less time with minimal effort and design decisions. Additionally, by utilizing AI models, businesses can use machine learning to modify their websites in order to deliver better suited content or products, as well as gain insights into visitor preferences and behavior patterns." img="1" />
