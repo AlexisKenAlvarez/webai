@@ -1,6 +1,7 @@
 import React from 'react'
 import { SiTwitter } from 'react-icons/si'
 import { FaTelegramPlane } from 'react-icons/fa'
+import { HiEnvelope } from 'react-icons/hi2'
 
 const Footer = () => {
     return (
@@ -14,6 +15,10 @@ const Footer = () => {
 
                 <a href="https://twitter.com/WebAIofficial" target="_blank">
                     <FaTelegramPlane className='hover:scale-[1.1] cursor-pointer transition-all ease-in-out' />
+                </a>
+
+                <a href="https://twitter.com/WebAIofficial" target="_blank">
+                    <HiEnvelope className='hover:scale-[1.1] cursor-pointer transition-all ease-in-out' />
                 </a>
 
 
