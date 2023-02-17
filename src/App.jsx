@@ -7,6 +7,7 @@ import Nav from './utils/Nav'
 import Tokenomics from './components/Tokenomics'
 import Roadmap from './components/Roadmap'
 import Footer from './components/Footer'
+import FAQ from './components/FAQ'
 
 const App = () => {
   return (
@@ -26,7 +27,9 @@ const App = () => {
 
 
       <Roadmap />
-      <Footer/>
+      <FAQ />
+      <Footer />
+
 
     </div>
 

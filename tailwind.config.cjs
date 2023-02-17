@@ -8,7 +8,8 @@ module.exports = {
     extend: {
       backgroundImage: {
         'main': "url('/mainbg.webp')",
-        'world': "url('/world.webp')"
+        'world': "url('/world.webp')",
+        token: "url('/tokenbg.webp')"
       },
       fontFamily: {
         'saira': ['Saira'],

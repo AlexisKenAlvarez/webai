@@ -17,7 +17,7 @@ export const Barchart = ({ data, options }) => {
 export const PieChart = ({ data, options }) => {
   return (
     <>
-      <Pie data={data} options={options}/>
+      <Pie data={data} options={options} className="md:mr-[18rem]"/>
     </>
   )
 }
