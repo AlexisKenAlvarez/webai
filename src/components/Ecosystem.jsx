@@ -20,10 +20,13 @@ const Ecosystem = () => {
                             <img alt="side" src="/sides.webp" className='absolute top-0 bottom-0 my-auto left-0'></img>
                             <img alt="side" src="/sides.webp" className='absolute top-0 bottom-0 my-auto right-0 rotate-180'></img>
                         </div>
-                    </div>
+                        <button className='bg-transparent border-[1px] border-white px-12 py-3 w-fit h-fit rounded-lg mt-10 hover:bg-white cursor-pointer z-10 relative transition-colors ease-in-out duration-300 mx-auto font-medium block hover:text-black'>
+                            <p>Whitepaper</p>
+                        </button>
+                    </div>  
                 </Parallax>
 
-                <h1 className='font-saia text-5xl text-center font-bold uppercase mb-[10rem]'   ref={ecoRef}>Ecosystem</h1>
+                <h1 className='font-saia text-5xl text-center font-bold uppercase mb-[10rem]' ref={ecoRef}>Ecosystem</h1>
 
                 <div className='w-fit h-auto mx-auto mt-10 flex flex-col gap-y-[12rem]'>
                     <Ecoleft title="1. Website AI Generation Tool" desc="Using AI to build websites has many advantages over traditional coding. For example, an AI-based website is capable of providing more personalized experiences for website visitors. Traditional coding requires manual effort and knowledge on coding languages, whereas using AI to create a website makes it easier to develop, customize and deploy a website in much less time with minimal effort and design decisions. Additionally, by utilizing AI models, businesses can use machine learning to modify their websites in order to deliver better suited content or products, as well as gain insights into visitor preferences and behavior patterns." img="1" />
@@ -33,7 +36,7 @@ const Ecosystem = () => {
                 </div>
 
             </div>
-            
+
         </section>
     )
 }
